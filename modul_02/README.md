@@ -84,33 +84,39 @@ Langkah-langkah:
 - Kalau muncul daftar file yang akan dipublikasikan, biarkan semuanya tercentang lalu klik OK.
 - Tunggu sampai muncul notifikasi sukses, lalu klik Open on GitHub.
 ### Tugas 2: Workflow Git dengan branch
-“Workflow” artinya alur kerja. Jadi di sini kamu cukup menulis urutan langkah kerjanya.
+Langkah 1: Buka CMD di folder proyek
+Buka File Explorer, masuk ke folder NIM_NamaKamu.
+Klik address bar, ketik cmd, tekan Enter.
+Cek posisi branch:
+   git branch
+Harus ada tanda * di main.
+Langkah 2: Buat branch baru
+git checkout -b fitur-biodata
+Hasil: muncul Switched to a new branch 'fitur-biodata'.
+Cek lagi dengan git branch. Sekarang tanda * pindah ke fitur-biodata.
+Langkah 3: Ubah file di VS Code
+Buka VS Code, lalu buka Modul_01/Latihan_01_01.html.
+Tambahkan satu baris di dalam <body>, misalnya:
+html
+   <p>Ini fitur biodata</p>
+Simpan dengan Ctrl + S. (Kalau lupa menyimpan, Git tidak melihat perubahannya.)
+Pojok kiri bawah VS Code menampilkan nama branch aktif, harusnya fitur-biodata.
 
-Alur kerja yang saya rancang:
-
-Branch main berisi versi utama yang sudah stabil.
-Fitur baru dikerjakan di branch terpisah, namanya fitur-biodata.
-Perubahan di branch itu disimpan dengan git add dan git commit.
-Kalau fitur sudah selesai, digabung ke main dengan git merge.
-Hasilnya dikirim ke GitHub dengan git push.
-
-Gambar alur (gambar di kertas pakai garis dan lingkaran):
-
-main          ●───────────────────●
-               \                 /
-fitur-biodata   ●────●──────────●
-
-Praktik yang saya lakukan di CMD:
-
-git checkout -b fitur-biodata (buat dan pindah branch)
-Edit file di VS Code, tambah satu baris, simpan
+Langkah 4: Simpan perubahan di branch (commit)
+Kembali ke CMD:
+git status
 git add .
 git commit -m "Menambahkan teks biodata"
-git checkout main (kembali ke utama)
-git merge fitur-biodata (gabungkan)
-git push origin main (kirim ke GitHub)
 
-Kesimpulan: Dengan branch, fitur baru bisa dikerjakan tanpa merusak versi utama.
+Langkah 5: Kembali ke main dan gabungkan (merge)
+git checkout main
+git merge fitur-biodata
+Hasil: muncul Updating ... dan 1 file changed. 
+
+Untuk membuktikan, buka lagi Latihan_01_01.html di VS Code. Baris <p>Ini fitur biodata</p> sekarang ada di branch main.
+
+Langkah 6 : di push nya menggunkan tombol yang ada di vs code yaitu di source control
+
 ### Tugas 3: Menyimpan seluruh praktikum
 Semua folder praktikum (Modul_01 dan Modul_03) saya kirim ke repository yang sama dengan 3 perintah di CMD:
 

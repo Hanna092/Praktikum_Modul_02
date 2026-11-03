@@ -118,7 +118,7 @@ Untuk membuktikan, buka lagi Latihan_01_01.html di VS Code. Baris <p>Ini fitur b
 Langkah 6 : di push nya menggunkan tombol yang ada di vs code yaitu di source control
 
 ### Tugas 3: Menyimpan seluruh praktikum
-Semua folder praktikum (Modul_01 dan Modul_03) saya kirim ke repository yang sama dengan 3 perintah di CMD:
+Semua folder praktikum (Modul_02) saya kirim ke repository yang sama dengan 3 perintah di CMD:
 
 git add . (masukkan semua file; tanda titik artinya “semua”)
 git commit -m "Menambahkan seluruh praktikum" (simpan versi)

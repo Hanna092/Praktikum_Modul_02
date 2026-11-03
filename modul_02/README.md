@@ -7,9 +7,9 @@ Kelas : SINFC 02-2025
 ## Kata Pengantar
 Puji syukur saya panjatkan kepada Allah SWT karena berkat rahmat-Nya laporan praktikum Modul 2 tentang Git ini akhirnya bisa saya selesaikan.
 
-Laporan ini saya buat untuk praktikum Modul 2 pada mata kuliah Praktikum Desain Web, Program Studi Sistem Informasi, Fakultas Ilmu Komputer, Universitas Kuningan. Dosen pengampunya bapak Dwde irawan. Lewat praktikum ini, saya belajar apa itu version control, cara membuat akun GitHub, cara memasang dan mengatur Git di laptop, serta perintah dasar seperti add, commit, branch, merge, dan push. Di dalam laporan ini saya tulis jawaban pre-test dan post-test, langkah-langkah praktikum lengkap dengan screenshot hasilnya, dan sedikit catatan dari apa yang saya pelajari.
+Laporan ini saya buat untuk praktikum Modul 2 pada mata kuliah Praktikum Desain Web, Program Studi Sistem Informasi, Fakultas Ilmu Komputer, Universitas Kuningan. Dosen pengampunya bapak Dede irawan, M.Kom .Lewat praktikum ini, saya belajar apa itu version control, cara membuat akun GitHub, cara memasang dan mengatur Git di laptop, serta perintah dasar seperti add, commit, branch, merge, dan push. Di dalam laporan ini saya tulis jawaban pre-test dan post-test, langkah-langkah praktikum lengkap dengan screenshot hasilnya, dan sedikit catatan dari apa yang saya pelajari.
 
-Saya sadar laporan ini masih punya banyak kekurangan karena pengetahuan saya masih terbatas. Karena itu, kritik dan saran dari Bapak/Ibu dosen akan sangat saya terima. Terima kasih kepada bapak Dede Irawan dan para asisten praktikum yang sudah membimbing saya selama praktikum dan penyusunan laporan ini. Semoga laporan ini bermanfaat dan bisa memenuhi tugas yang diberikan.
+Saya sadar laporan ini masih punya banyak kekurangan karena pengetahuan saya masih terbatas. Karena itu, kritik dan saran dari Bapak/Ibu dosen akan sangat saya terima. Terima kasih kepada bapak Dede Irawan, M.Kom.dan para asisten praktikum yang sudah membimbing saya selama praktikum dan penyusunan laporan ini. Semoga laporan ini bermanfaat dan bisa memenuhi tugas yang diberikan.
 
 Kuningan, 3 November 2026
 

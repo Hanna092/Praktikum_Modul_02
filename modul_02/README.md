@@ -71,18 +71,18 @@ git add namafile.html
 
 ## C. Latihan/Tugas
 ### Tugas 1: Membuat repository, commit, dan push
-Saya membuat repository Git untuk menyimpan file HTML praktikum, lalu mengirimnya ke GitHub. Perintah Git saya ketik di CMD bawaan laptop, sedangkan VS Code saya pakai untuk membuat file.
+Saya membuat repository Git untuk menyimpan file HTML praktikum, lalu mengirimnya ke GitHub.dengan lewat tombal VS code tanpa terminal
 Langkah-langkah:
-- Membuat repository baru di GitHub dengan nama pweb1.
-- Membuka CMD di folder proyek.
-- Mengetik git init (membuat repository Git).
-- Mengetik git add Modul_01/Latihan_01_01.html (memasukkan file).
-- Mengetik git commit -m "Initial commit" (menyimpan versi).
-- Mengetik git remote add origin https://github.com/USERNAME/pweb1.git (menghubungkan ke GitHub).
-- Mengetik git branch -M main (menamai branch utama).
-- Mengetik git push -u origin main (mengirim ke GitHub).
-- Mengecek di GitHub, file sudah muncul.
-Kesimpulan: File dari VS Code berhasil dikirim ke GitHub.
+- Klik ikon Source Control di panel paling kiri (gambar cabang, di bawah ikon kaca pembesar), atau tekan Ctrl + Shift + G.
+- Klik tombol Initialize Repository. Semua file akan muncul dalam daftar Changes.
+- Arahkan mouse ke tulisan Changes, klik ikon + (Stage All Changes). File berpindah ke Staged Changes.
+- Di kotak Message, ketik pesan, misalnya: Menambahkan laporan Modul 2.
+- Klik tombol Commit. Kalau muncul pertanyaan “stage all changes and commit?”, pilih Yes.
+- Klik tombol Publish Branch (atau Publish to GitHub).
+- Kalau diminta login, pilih Allow, lalu login dan Authorize di browser, kemudian kembali ke VS Code.
+- Di bagian atas VS Code muncul pilihan. Pilih Publish to GitHub public repository, nama repository pweb1 (boleh diganti).
+- Kalau muncul daftar file yang akan dipublikasikan, biarkan semuanya tercentang lalu klik OK.
+- Tunggu sampai muncul notifikasi sukses, lalu klik Open on GitHub.
 ### Tugas 2: Workflow Git dengan branch
 “Workflow” artinya alur kerja. Jadi di sini kamu cukup menulis urutan langkah kerjanya.
 
@@ -121,3 +121,4 @@ git push (kirim ke GitHub)
 Setelah itu saya cek GitHub dan semua folder sudah tampil.
 
 Kesimpulan: Semua praktikum sudah tersimpan di GitHub.
+<p>Ini fitur bidata</p>
